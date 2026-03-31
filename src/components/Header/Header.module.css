@@ -3,33 +3,69 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 24px;
+    padding: 1rem 1.5rem;
 }
 
 .modeLight {
     background: rgba(0, 0, 0, 0.64);
     border: #334258 2px solid;
     border-radius: 100%;
-    height: 50px;
-    width: 50px;
+    height: 3.125rem;
+    width: 3.125rem;
+
+    cursor: pointer;
 }
 
 .modeLight img {
     width: 100%;
     border-radius: 100%;
+}
 
+.nav {
+    display: none;
+}
+
+.nav.open {
+    display: flex;
+    gap: 1rem;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35%;
+    height: 35dvh;
+    background: rgba(0, 0, 0, 0.64);
+    border-left: #334258 2px solid;
+    border-bottom: #334258 2px solid;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: self-start;
+    padding: 1rem;
+
+    z-index: 999;
+}
+
+.nav a {
+    font-size: 1.5rem;
+    color: #334258;
+    text-decoration: none;
 }
 
 .menu {
     background: rgba(0, 0, 0, 0.64);
     border: #334258 2px solid;
     border-radius: 50px;
-    height: 50px;
-    width: 100px;
+    height: 3.125rem;
+    width: 6.25rem;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    cursor: pointer;
+    z-index: 1000;
 }
 
 .menu img {
