@@ -9,9 +9,6 @@ function Header() {
 
   return (
     <header className={styles.header}>
-      <div className={styles.modeLight}>
-        <img src={sun} alt="botão de mudar modo dark" />
-      </div>
       <nav className={`${styles.nav} ${open ? styles.open : ""}`}>
         <a href="/">Home</a>
         <a href="/">Sobre</a>
@@ -21,6 +18,9 @@ function Header() {
       </nav>
       <div className={`${styles.menu} `} onClick={() => setOpen(!open)}>
         <img src={menu} alt="botão de abrir menu" />
+      </div>
+      <div className={styles.modeLight}>
+        <img src={sun} alt="botão de mudar modo dark" />
       </div>
     </header>
   );

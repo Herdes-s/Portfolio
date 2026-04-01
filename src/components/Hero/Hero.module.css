@@ -5,6 +5,9 @@
     rgba(16, 50, 102, 0.36),
     rgba(0, 0, 0, 0.36)
   );
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sub_hero {
