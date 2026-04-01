@@ -8,7 +8,7 @@ import linkedIn from "../../assets/images/linkedIn.svg";
 
 function Hero() {
   return (
-    <section className={styles.section_hero}>
+    <section className={styles.section_hero} id="home">
       <div className={styles.sub_hero}>
         <div className={styles.hero_image}>
           <img src={my_photo} alt="Foto do criador do site e dono" />

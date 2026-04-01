@@ -1,5 +1,6 @@
 import styles from "./Header.module.css";
 
+
 import sun from "../../assets/images/sun.svg";
 import menu from "../../assets/images/menu.svg";
 import { useState } from "react";
@@ -10,11 +11,11 @@ function Header() {
   return (
     <header className={styles.header}>
       <nav className={`${styles.nav} ${open ? styles.open : ""}`}>
-        <a href="/">Home</a>
-        <a href="/">Sobre</a>
-        <a href="/">Habilidades</a>
-        <a href="/">Projetos</a>
-        <a href="/">Serviços</a>
+        <a href="#home">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#serviços">Serviços</a>
       </nav>
       <div className={`${styles.menu} `} onClick={() => setOpen(!open)}>
         <img src={menu} alt="botão de abrir menu" />
