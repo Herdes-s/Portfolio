@@ -2,8 +2,8 @@
   min-height: 100dvh;
   background: linear-gradient(
     to bottom,
-    rgba(16, 50, 102, 0.36),
-    rgba(0, 0, 0, 0.36)
+    rgba(var(--color-bg-secondary), 0.36),
+    rgba(var(--color-secondary), 0.36)
   );
   display: flex;
   align-items: center;
