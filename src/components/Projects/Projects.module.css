@@ -1,0 +1,120 @@
+.section_projects {
+  height: 100vh;
+  background: radial-gradient(
+    circle,
+    rgba(var(--color-secondary), 0.36),
+    rgba(var(--color-bg-secondary), 0.36) 50%
+  );
+  padding: 1rem 1.5rem;
+}
+
+.sec_projects {
+  width: 100%;
+  max-width: 1300px;
+  margin-inline: auto;
+}
+
+.sec_projects .title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  color: rgb(var(--color-title));
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.sec_projects .modes {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(var(--color-secondary), 0.64);
+  border: 2px solid rgba(var(--color-secondary), 0.8);
+  border-radius: 48px;
+  margin-bottom: 1rem;
+}
+
+.sec_projects .modes .mode {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  padding: 0.75rem;
+}
+
+.sec_projects .modes .mode.active {
+  background: rgba(var(--color-secondary), 0.64);
+  border: 2px solid rgba(var(--color-secondary), 0.8);
+  border-radius: 48px;
+}
+
+.sec_projects .banner {
+    position: relative;
+}
+
+.sec_projects .banner .image_banner {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 1rem;
+  border: 2px solid rgba(var(--color-primary), 0.8);
+  box-shadow: 4px 4px 8px rgba(var(--color-secondary), 0.36);
+}
+
+.banner_info {
+    position: absolute;
+    inset: 0;
+
+    background: rgba(var(--color-secondary), 0.64);
+    color: rgb(var(--color-text));
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+
+.banner:hover .banner_info {
+    opacity: 1;
+}
+
+.sec_projects .banner_info .marca{
+    font-size: clamp(0.75rem, 1.5vw, 1rem);
+    display: inline-block;
+    background: rgb(var(--color-button));
+    color: rgb(var(--color-text));
+    padding: 0.25rem 0.5rem;
+    border-radius: 1rem;
+}
+
+.sec_projects .banner_info h3 {
+    font-size: clamp(1.5rem, 2.5vw, 1.75rem);
+    margin-block: 0.5rem;
+}
+
+.sec_projects .banner_info .description {
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.sec_projects .banner_info .btns {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sec_projects .banner_info button {
+    background: rgb(var(--color-button));
+    color: rgb(var(--color-text));
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: clamp(0.75rem, 1.5vw, 1rem);
+    cursor: pointer;
+
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.sec_projects .banner_info button:hover {
+    background: rgb(15, 63, 153);
+    transform: translateY(-2px);
+}
