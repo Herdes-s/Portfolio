@@ -1,8 +1,6 @@
 import { useState } from "react";
 
 import banner from "../../assets/images/banner.jpg";
-import react from "../../assets/images/react.svg";
-import tailwindcss from "../../assets/images/tailwindcss.svg";
 
 import styles from "./Projects.module.css";
 
