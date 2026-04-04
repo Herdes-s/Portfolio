@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import banner from "../../assets/images/banner.jpg";
+import projetos from "../../data/projetos";
 
 import styles from "./Projects.module.css";
 
@@ -24,20 +24,29 @@ function Projects() {
             Developer
           </p>
         </div>
-        <div className={styles.banner}>
-            <img className={styles.image_banner} src={banner} alt="imagem do hero site hexatombe" />
-            <div className={styles.banner_info}>
+        <div className={styles.show_projects}>
+          {projetos.filter(project => project.modo === active).map((projeto) => (
+            <div className={styles.banner}>
+              <img
+                className={styles.image_banner}
+                src={projeto.img}
+                alt="imagem do hero site hexatombe"
+              />
+              <div className={styles.banner_info}>
                 <p className={styles.marca}>developer</p>
-                <h3>Hexatombe</h3>
-                <p className={styles.description}>Site baseado em uma serie de RPG OrdemParanormal</p>
+                <h3>{projeto.nome}</h3>
+                <p className={styles.description}>{projeto.descricao}</p>
                 <div className={styles.btns}>
-                    <button>Ver Video</button>
-                    <button>Ver Repositorio</button>
+                  <button className={styles.btn_repository}>
+                    <a href={projeto.repositorio}>Ver Repositorio</a>
+                  </button>
+                  <button className={styles.btn_video}>
+                    <a href={projeto.video}>Video</a>
+                  </button>
                 </div>
+              </div>
             </div>
-        </div>
-        <div>
-
+          ))}
         </div>
       </div>
     </section>

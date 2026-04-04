@@ -12,6 +12,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
+  z-index: 998;
 }
 
 .overlay {
@@ -90,6 +91,7 @@
 }
 
 .menu {
+  position: relative;
   background: rgba(var(--color-secondary), 0.36);
   border: rgb(var(--color-primary)) 2px solid;
   border-radius: 50px;

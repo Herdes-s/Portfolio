@@ -1,5 +1,4 @@
 .section_projects {
-  height: 100vh;
   background: radial-gradient(
     circle,
     rgba(var(--color-secondary), 0.36),
@@ -12,6 +11,7 @@
   width: 100%;
   max-width: 1300px;
   margin-inline: auto;
+  margin-bottom: 2rem;
 }
 
 .sec_projects .title {
@@ -41,15 +41,25 @@
   border: 2px solid rgba(var(--color-secondary), 0.8);
   border-radius: 48px;
 }
+/* 
+.sec_projects .banner:first-child {
+  position: relative;
+  margin-inline: auto;
+  } */
+
+.sec_projects .show_projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
 
 .sec_projects .banner {
+  width: 100%;
   position: relative;
-  width: min(100%, 900px);
-  margin-inline: auto;
 }
 
 .sec_projects .banner .image_banner {
-  width: min(100%, 900px);
+  width: 100%;
   height: auto;
   display: block;
   margin-inline: auto;
@@ -62,7 +72,7 @@
   position: absolute;
   inset: 0;
 
-  background: rgba(var(--color-secondary), 0.64);
+  background: rgba(var(--color-secondary), 0.8);
   color: rgb(var(--color-text));
 
   display: flex;
@@ -97,6 +107,7 @@
   font-size: clamp(1rem, 1.5vw, 1.5rem);
   line-height: 1.6;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .sec_projects .banner_info .btns {
@@ -119,7 +130,32 @@
     transform 0.3s ease;
 }
 
+.sec_projects .banner_info .btn_video {
+  background: transparent;
+  border: none;
+}
+
+.sec_projects .banner_info .btn_video a {
+  color: rgb(var(--color-title));
+  text-decoration: underline;
+}
+
+.sec_projects .banner_info .btn_repository a {
+  color: rgb(var(--color-neutre-primary));
+}
+
+.sec_projects .banner_info button a {
+  text-decoration: none;
+}
+
 .sec_projects .banner_info button:hover {
   background: rgb(15, 63, 153);
   transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+
+  .sec_projects .show_projects {
+    grid-template-columns: 1fr;
+  }
 }
