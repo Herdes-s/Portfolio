@@ -1,8 +1,7 @@
 import hexatombe from "../assets/images/hexatombe.jpg";
 import strangerthings from "../assets/images/strangerthings.jpg";
 import onepiece from "../assets/images/onepiece.jpg";
-import cinema from "../assets/images/cinema.jpg";
-import fika from "../assets/images/Fika_TemCafé.jpg";
+import barbearia from "../assets/images/barbearia.jpg";
 
 const projetos = [
   {
@@ -10,7 +9,9 @@ const projetos = [
     nome: "Hexatombe",
     descricao: "Site baseado em uma serie de RPG OrdemParanormal",
     img: hexatombe,
+    btn_1: "Repositorio",
     repositorio: "",
+    btn_2: "Video",
     video: "",
     modo: "developer",
   },
@@ -19,7 +20,9 @@ const projetos = [
     nome: "Stranger Things",
     descricao: "Site baseado na serie de TV Stranger Things",
     img: strangerthings,
+    btn_1: "Repositorio",
     repositorio: "",
+    btn_2: "Ver site",
     video: "",
     modo: "developer",
   },
@@ -28,28 +31,22 @@ const projetos = [
     nome: "One Piece",
     descricao: "Site baseado na serie de anime One Piece",
     img: onepiece,
+    btn_1: "Repositorio",
     repositorio: "",
+    btn_2: "Video",
     video: "",
     modo: "developer",
   },
   {
     id: 4,
-    nome: "Cinema",
-    descricao: "Site baseado em um cinema ficticio",
-    img: cinema,
+    nome: "Barbearia",
+    descricao: "Site de uma barbearia",
+    img: barbearia,
+    btn_1: "Repositorio",
     repositorio: "",
+    btn_2: "Ver site",
     video: "",
     modo: "developer",
-  },
-  {
-    id: 5,
-    nome: "Design de Interface",
-    descricao:
-      "Projeto de design de interface para um aplicativo de finanças pessoais",
-    img: fika,
-    repositorio: "",
-    video: "",
-    modo: "designer",
   },
 ];
 

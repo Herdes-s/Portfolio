@@ -11,23 +11,23 @@
   width: 100%;
   max-width: 1300px;
   margin-inline: auto;
-  margin-bottom: clamp(2rem, 10vw, 8.75rem);
+  margin-bottom: clamp(2rem, 12.19vw + -1.15rem, 8.75rem);
   margin-top: 4rem;
 }
 
 .section_habilidades h2 {
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(2rem, 1.81vw + 1.53rem, 3rem);
   color: rgb(var(--color-title));
   text-align: center;
-  margin-bottom: clamp(2rem, 10vw, 4rem);
+  margin-bottom: clamp(2rem, 3.61vw + 1.07rem, 4rem);
 }
 
 .section_habilidades p {
   width: min(100%, 75rem);
-  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  font-size: clamp(1rem, 0.90vw + 0.77rem, 1.5rem);
   font-weight: 500;
   line-height: 1.6;
-  margin-bottom: clamp(2rem, 10vw, 8.75rem);
+  margin-bottom: clamp(2rem, 12.19vw + -1.15rem, 8.75rem);
   text-align: center;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .habilidades_item h3 {
-  font-size: clamp(1.5rem, 2.5vw, 1.75rem);
+  font-size: clamp(1.5rem, 0.45vw + 1.38rem, 1.75rem);
   padding: 0.5rem;
   text-align: start;
 }
@@ -70,7 +70,7 @@
 }
 
 .habilidades_item ul li {
-  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  font-size: clamp(1rem, 0.90vw + 0.77rem, 1.5rem);
   border: 2px solid rgba(255, 255, 255, 0.48);
   background: rgba(var(--color-secondary), 0.24);
   border-radius: 0.75rem;

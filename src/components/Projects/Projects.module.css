@@ -15,37 +15,11 @@
 }
 
 .sec_projects .title {
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(2rem, 1.81vw + 1.53rem, 3rem);
   color: rgb(var(--color-title));
   text-align: center;
   margin-bottom: 2rem;
 }
-
-.sec_projects .modes {
-  display: inline-flex;
-  justify-content: space-between;
-  align-items: center;
-  background: rgba(var(--color-secondary), 0.64);
-  border: 2px solid rgba(var(--color-secondary), 0.8);
-  border-radius: 48px;
-  margin-bottom: 1rem;
-}
-
-.sec_projects .modes .mode {
-  font-size: clamp(1rem, 2.5vw, 1.5rem);
-  padding: 0.75rem;
-}
-
-.sec_projects .modes .mode.active {
-  background: rgba(var(--color-secondary), 0.64);
-  border: 2px solid rgba(var(--color-secondary), 0.8);
-  border-radius: 48px;
-}
-/* 
-.sec_projects .banner:first-child {
-  position: relative;
-  margin-inline: auto;
-  } */
 
 .sec_projects .show_projects {
   display: grid;
@@ -90,7 +64,7 @@
 }
 
 .sec_projects .banner_info .marca {
-  font-size: clamp(0.75rem, 1.5vw, 1rem);
+  font-size: clamp(0.75rem, 0.45vw + 0.63rem, 1rem);
   display: inline-block;
   background: rgb(var(--color-button));
   color: rgb(var(--color-text));
@@ -99,12 +73,12 @@
 }
 
 .sec_projects .banner_info h3 {
-  font-size: clamp(1.5rem, 2.5vw, 1.75rem);
+  font-size: clamp(1.5rem, 0.45vw + 1.38rem, 1.75rem);
   margin-block: 0.5rem;
 }
 
 .sec_projects .banner_info .description {
-  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  font-size: clamp(1rem, 0.90vw + 0.77rem, 1.5rem);
   line-height: 1.6;
   margin-bottom: 1rem;
   text-align: center;
@@ -122,7 +96,7 @@
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 0.5rem;
-  font-size: clamp(0.75rem, 1.5vw, 1rem);
+  font-size: clamp(0.75rem, 0.45vw + 0.63rem, 1rem);
   cursor: pointer;
 
   transition:
@@ -151,6 +125,21 @@
 .sec_projects .banner_info button:hover {
   background: rgb(15, 63, 153);
   transform: translateY(-2px);
+}
+
+.more {
+  text-align: center;
+  color: rgb(var(--color-button));
+  margin-top: 2rem;
+  text-decoration: underline;
+  cursor: pointer;
+  background: rgba(var(--color-bg-secondary), 0.36);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.more:hover {
+  color: rgb(var(--color-neutre-primary));
 }
 
 @media (max-width: 768px) {

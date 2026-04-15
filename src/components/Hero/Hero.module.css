@@ -49,12 +49,12 @@
 .hero_info h1 .line1,
 .hero_info h1 .line2 {
   display: block;
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: clamp(2rem, 3.61vw + 1.07rem, 4rem);
 }
 
 
 .hero_info .description {
-  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-size: clamp(1rem, 0.90vw + 0.77rem, 1.5rem);
   line-height: 1.6;
   max-width: 34.375rem;
 }
@@ -79,7 +79,7 @@
 }
 
 .hero_info .logos_rede a img {
-  width: clamp(2.375rem, 4vw, 4rem);
+  width: clamp(2.375rem, 2.93vw + 1.62rem, 4rem);
   margin-right: 3rem;
 
   transition: transform 0.3s ease;

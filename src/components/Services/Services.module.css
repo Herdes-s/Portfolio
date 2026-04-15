@@ -1,0 +1,98 @@
+.services {
+  background: linear-gradient(
+    to bottom,
+    rgba(var(--color-bg-secondary), 0.36) 0%,
+    rgba(var(--color-secondary), 0.36) 25%
+  );
+  padding: 1rem 1.5rem;
+  height: 100vh;
+}
+
+.sec_services {
+  width: 100%;
+  max-width: 1300px;
+  margin-inline: auto;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+
+.sec_services .services_title {
+  font-size: clamp(2rem, 1.81vw + 1.53rem, 3rem);
+  color: rgb(var(--color-title));
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.sec_services .services_description {
+  font-size: clamp(1rem, 0.9vw + 0.77rem, 1.5rem);
+  line-height: 1.6;
+  margin-bottom: 6rem;
+  text-align: center;
+}
+
+.sec_services .services_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec_services .services_container {
+  width: min(600px, 100%);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: linear-gradient(
+    to top,
+    rgba(0, 5, 12, 0.64) 10%,
+    rgba(var(--color-secondary), 0.64) 90%
+  );
+  border: 3px solid rgba(var(--color-secondary), 0.8);
+  border-radius: 1.5rem;
+  padding: 1rem 1.25rem;
+}
+
+.sec_services .services_container h3 {
+  font-size: clamp(1.5rem, 0.9vw + 1.27rem, 2rem);
+  padding: 0.5rem;
+  text-align: start;
+  margin-bottom: 1rem;
+}
+
+.sec_services .services_container p {
+  font-size: clamp(1rem, 0.45vw + 0.88rem, 1.25rem);
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: aliceblue;
+  margin-inline: auto;
+
+  margin-bottom: 1rem;
+}
+
+.sec_services .services_container .services_btn {
+  background: transparent;
+  border: none;
+  padding: 1rem;
+}
+.sec_services .services_container .services_btn a {
+  color: rgb(var(--color-text));
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.sec_services .services_container .services_btn a:hover {
+  color: rgb(var(--color-title));
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .sec_services .services_grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
