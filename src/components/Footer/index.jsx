@@ -1,8 +1,8 @@
 import styles from "./Footer.module.css";
 
-import linkedin from "../../assets/images/linkedIn_circle.svg"
-import instagram from "../../assets/images/instagram.svg"
-import github from "../../assets/images/github_circle.svg"
+import linkedin from "../../assets/images/linkedIn_circle.svg";
+import instagram from "../../assets/images/instagram.svg";
+import github from "../../assets/images/github_circle.svg";
 
 function Footer() {
   return (
