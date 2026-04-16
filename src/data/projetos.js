@@ -23,7 +23,7 @@ const projetos = [
     btn_1: "Repositorio",
     repositorio: "",
     btn_2: "Ver site",
-    video: "",
+    video: "https://stranger-things-site-taupe.vercel.app/",
     modo: "developer",
   },
   {
@@ -45,7 +45,7 @@ const projetos = [
     btn_1: "Repositorio",
     repositorio: "",
     btn_2: "Ver site",
-    video: "",
+    video: "https://barbearia-nine-gold.vercel.app/",
     modo: "developer",
   },
 ];

@@ -2,7 +2,7 @@ import styles from "./Services.module.css";
 
 function Services() {
   return (
-    <section className={styles.services}>
+    <section className={styles.services} id="serviços">
       <div className={styles.sec_services}>
         <h2 className={styles.services_title}>Serviços</h2>
         <p className={styles.services_description}>

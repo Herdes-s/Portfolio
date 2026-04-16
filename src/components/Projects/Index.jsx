@@ -4,7 +4,7 @@ import styles from "./Projects.module.css";
 
 function Projects() {
   return (
-    <section className={styles.section_projects}>
+    <section className={styles.section_projects} id="projetos">
       <div className={styles.sec_projects}>
         <h1 className={styles.title}>Projetos</h1>
         <div className={styles.show_projects}>

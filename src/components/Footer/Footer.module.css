@@ -1,6 +1,7 @@
 .footer {
-  background: rgba(var(--color-secondary), 0.36);
+  background: rgba(var(--color-secondary), 0.64);
   height: 18.75rem;
+  box-shadow: 0 0 1rem 1rem rgba(var(--color-secondary), 0.64);
 }
 
 .footer_box {
@@ -10,48 +11,68 @@
 }
 
 .footer_box h2 {
-    margin-bottom: 1rem;
-    color: rgb(var(--color-title));
+  margin-bottom: 1rem;
+  font-size: clamp(1rem, 1.81vw + 0.53rem, 2rem);
+  color: rgb(var(--color-title));
+  text-align: start;
 }
 
 .line {
-    background: rgb(var(--color-neutre-secondary));
-    width: 100%;
-    height: 2px;
-    margin-inline: auto;
-    margin-bottom: 1rem;
+  background: rgb(var(--color-neutre-secondary));
+  width: 100%;
+  height: 2px;
+  margin-inline: auto;
+  margin-bottom: 1rem;
 }
 
 .footer_box .footer_content {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
 }
 
 .footer_box .footer_content .footer_nav {
-    display: flex;
-    flex-direction: column;
-    align-items: auto;
-    gap: 0.375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: auto;
+  gap: 0.375rem;
 }
 
-.footer_box .footer_content .footer_nav a{
-    font-size: 1rem;
-    color: rgb(var(--color-neutre-secondary));
-    text-decoration: none;
+.footer_box .footer_content .footer_nav a {
+  font-size: 1rem;
+  color: rgb(var(--color-neutre-secondary));
+  text-decoration: none;
+
+  transition: transform .3s ease, color .3s ease;
+}
+
+.footer_box .footer_content .footer_nav a:hover {
+  transform: translateX(4px);
+  color: rgb(var(--color-title));
 }
 
 .footer_box .footer_content .footer_logo {
-    display: flex;
-    flex-direction: column;
-    
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
 }
 
-.footer_box .footer_content .footer_logo {
-    width: 3.125rem;
+.footer_box .footer_content .footer_logo img {
+  width: 3.125rem;
+  transition: transform .3s ease;
+}
+
+.footer_box .footer_content .footer_logo img:hover {
+  transform: scale(1.10);
 }
 
 .footer_box p {
-    font-size: 0.875rem;
-    align-items: center;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .footer_box h2 {
+    text-align: center;
+  }
 }
