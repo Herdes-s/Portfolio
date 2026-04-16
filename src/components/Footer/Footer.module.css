@@ -59,6 +59,7 @@
 
 .footer_box .footer_content .footer_logo img {
   width: 3.125rem;
+  border-radius: 3rem;
   transition: transform .3s ease;
 }
 
