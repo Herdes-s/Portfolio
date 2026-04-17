@@ -16,7 +16,7 @@ function Services() {
                 contrastantes, tipografias e espaçamentos
               </p>
               <div className={styles.line}></div>
-              <button className={styles.services_btn}><a href="">Ver mais</a></button>
+              <button className={styles.services_btn}><a href="">Ver mais (Em desenvolvimento)</a></button>
             </div>
             <div className={styles.services_container}>
               <h3>Desenvolvedor Front_End</h3>
@@ -25,7 +25,7 @@ function Services() {
                 positions assim como media query
               </p>
               <div className={styles.line}></div>
-              <button className={styles.services_btn}><a href="">Ver mais</a></button>
+              <button className={styles.services_btn}><a href="">Ver mais (Em desenvolvimento)</a></button>
             </div>
         </div>
       </div>

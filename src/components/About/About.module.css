@@ -38,6 +38,12 @@
   border: 2px solid rgba(151, 151, 151, 0.48);
   padding: 1rem 1.5rem;
   border-radius: 1rem;
+
+  transition: transform .3s ease;
+}
+
+.about_block:hover {
+  transform: translateY(-2px);
 }
 
 .about_block h3 {

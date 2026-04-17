@@ -21,17 +21,29 @@ function Projects() {
                 <p className={styles.description}>{projeto.descricao}</p>
                 <div className={styles.btns}>
                   <button className={styles.btn_repository}>
-                    <a href={projeto.repositorio}>{projeto.btn_1}</a>
+                    <a
+                      href={projeto.repositorio}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {projeto.btn_1}
+                    </a>
                   </button>
                   <button className={styles.btn_video}>
-                    <a href={projeto.video}>{projeto.btn_2}</a>
+                    <a
+                      href={projeto.video}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {projeto.btn_2}
+                    </a>
                   </button>
                 </div>
               </div>
             </div>
           ))}
         </div>
-        <p className={styles.more}>Ver mais</p>
+        {/* <p className={styles.more}>Ver mais</p> */}
       </div>
     </section>
   );

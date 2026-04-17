@@ -89,6 +89,12 @@
   transform: translateY(-2px);
 }
 
+.nav a:active {
+  transform: scale(0.98);
+
+  transition: transform 0.1s ease;
+}
+
 .menu {
   position: relative;
   background: rgba(var(--color-secondary), 0.36);

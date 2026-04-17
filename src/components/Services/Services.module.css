@@ -51,7 +51,14 @@
   border: 3px solid rgba(var(--color-secondary), 0.8);
   border-radius: 1.5rem;
   padding: 1rem 1.25rem;
+
+  transition: transform .3s ease;
 }
+
+.sec_services .services_container:hover {
+  transform: scale(1.1);
+}
+
 
 .sec_services .services_container h3 {
   font-size: clamp(1.5rem, 0.9vw + 1.27rem, 2rem);
