@@ -12,8 +12,7 @@ function Habilidades() {
       <div className={styles.sub_section}>
         <h2>Habilidades</h2>
         <p>
-          Criando interfaces de usuário (UI) e experiências de usuário (UX) ,
-          além de código limpo.
+          Desenvolvimento de interfaces modernas com foco em UI/UX, código limpo e alta performance.
         </p>
         <div className={styles.habilidades_grid}>
           <div className={styles.habilidades_item}>

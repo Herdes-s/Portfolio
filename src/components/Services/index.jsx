@@ -12,8 +12,7 @@ function Services() {
             <div className={styles.services_container}>
               <h3>UI / UX Designer</h3>
               <p>
-                Interfaces limpas, layout organizado, hierarquia visual, cores
-                contrastantes, tipografias e espaçamentos
+                Criação de interfaces modernas, com layout organizado, hierarquia visual clara e uso estratégico de cores, tipografia e espaçamento para melhorar a experiência do usuário.
               </p>
               <div className={styles.line}></div>
               <button className={styles.services_btn}><a href="">Ver mais (Em desenvolvimento)</a></button>
@@ -21,8 +20,7 @@ function Services() {
             <div className={styles.services_container}>
               <h3>Desenvolvedor Front_End</h3>
               <p>
-                Codigo limpo, organizado, semantico e estruturado, grids, flex e
-                positions assim como media query
+                Desenvolvimento de interfaces responsivas com código limpo, semântico e bem estruturado, utilizando boas práticas como Flexbox, Grid e Media Queries.
               </p>
               <div className={styles.line}></div>
               <button className={styles.services_btn}><a href="">Ver mais (Em desenvolvimento)</a></button>
