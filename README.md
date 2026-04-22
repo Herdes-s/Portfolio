@@ -1,16 +1,42 @@
-# React + Vite
+# Portifolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio pessoal desenvolvido com React e Module css, contem informações sobre mim e minhas especialidades.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![imagem do site](./src/assets/images/portfolio.jpg)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Objetivo
 
-## Expanding the ESLint configuration
+Desenvolvimento de um site portfolio mostrando minhas informações proficionais.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### Tecnologias
+
+* React
+* CSS Modules
+* JavaScript
+* Mobile first
+
+---
+
+### Estrutura do projeto
+
+* **Home** 
+
+    * Header
+    * Hero
+    * Sobre
+    * Habilidades
+    * Projetos
+    * Serviços
+    *Footer
+
+---
+
+## Autor
+
+Desenvolvido por **Ernand Soares**
