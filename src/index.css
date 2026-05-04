@@ -10,6 +10,7 @@ html {
 
   --color-bg-secondary: 16, 50, 102; /* azul escuro do background das seções */
   --color-bg: 26, 26, 26; /* preto fundo 1a1a1a */
+  --color-details: 95, 139, 204; /* azul claro dos detalhes */
 
   --color-neutre-secondary: 255, 255, 255; /* branco */
 

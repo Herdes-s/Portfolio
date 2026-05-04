@@ -1,4 +1,6 @@
 .footer {
+  position: relative;
+  margin-top: 3.125rem;
   background: rgba(var(--color-secondary), 0.64);
   height: 18.75rem;
   box-shadow: 0 0 1rem 1rem rgba(var(--color-secondary), 0.64);
