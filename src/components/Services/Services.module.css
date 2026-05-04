@@ -1,12 +1,10 @@
 .services {
-  min-height: 100dvh;
   background: linear-gradient(
     to bottom,
     rgba(var(--color-bg-secondary), 0.36) 0%,
     rgba(var(--color-secondary), 0.36) 25%
   );
   padding: 1rem 1.5rem;
-  height: 100vh;
 }
 
 .sec_services {
