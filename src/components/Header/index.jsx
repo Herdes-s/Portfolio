@@ -7,6 +7,17 @@ import { useState } from "react";
 
 function Header() {
   const [open, setOpen] = useState(false);
+  const [lightMode, setLightMode] = useState(false);
+
+  const toggleLightMode = () => {
+    setLightMode(!lightMode);
+
+    if (!lightMode) {
+      document.documentElement.classList.add("light-mode");
+    } else {
+      document.documentElement.classList.remove("light-mode");
+    }
+  }
 
   return (
     <header className={styles.header}>
@@ -34,7 +45,7 @@ function Header() {
         <img src={open ? close : menu} alt="botão de abrir menu" />
       </div>
       <div className={styles.modeLight}>
-        <img src={sun} alt="botão de mudar modo dark" />
+        <img src={sun} alt="botão de mudar modo dark" onClick={toggleLightMode} />
       </div>
     </header>
   );

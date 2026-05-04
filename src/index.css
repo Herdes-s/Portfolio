@@ -22,6 +22,22 @@ html {
   --font-primary: 'Montserrat', sans-serif;
 }
 
+.light-mode {
+  --color-primary: 162, 221, 255; /* Azul clarinho */
+  --color-secondary: 0, 0, 0; /* preto */
+
+  --color-bg-secondary: 162, 221, 255; /* branco do background das seções */
+  --color-bg: 241, 241, 241; /* cinza claro para o fundo */
+  --color-details: 52, 106, 222; /* azul escuro dos detalhes */
+
+  --color-neutre-secondary: 26, 26, 26; /* preto para os detalhes */
+
+  --color-text: 26, 26, 26; /* preto para o texto */
+  --color-title: 51, 66, 88; /* azul escuro para os títulos */
+
+  --color-button: 81, 150, 255; /* azul vibrante para os botões */
+}
+
 * {
   margin: 0;
   padding: 0;
