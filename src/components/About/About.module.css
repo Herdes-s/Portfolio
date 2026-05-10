@@ -34,8 +34,8 @@
 .about_block {
   display: flex;
   align-items: center;
-  background: rgba(108, 108, 108, 0.28);
-  border: 2px solid rgba(151, 151, 151, 0.48);
+  background: rgba(var(--color-detail-card), 0.28);
+  border: 2px solid rgba(var(--color-detail-bord), 0.48);
   padding: 1rem 1.5rem;
   border-radius: 1rem;
 

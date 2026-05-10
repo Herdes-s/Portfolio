@@ -16,7 +16,7 @@ function Projects() {
                 alt="imagem do hero site hexatombe"
               />
               <div className={styles.banner_info}>
-                <p className={styles.marca}>{projeto.modo}</p>
+                {/* <p className={styles.marca}>{projeto.modo}</p> */}
                 <h3>{projeto.nome}</h3>
                 <p className={styles.description}>{projeto.descricao}</p>
                 <div className={styles.btns}>
