@@ -28,7 +28,7 @@
 }
 
 .modeLight {
-  background: rgba(var(--color-secondary), 0.36);
+  background: rgba(var(--color-neutre-secondary), 0.36);
   border: rgb(var(--color-neutre-secondary)) 2px solid;
   border-radius: 100%;
   height: 3.125rem;
@@ -97,7 +97,7 @@
 
 .menu {
   position: relative;
-  background: rgba(var(--color-secondary), 0.36);
+  background: rgba(var(--color-neutre-secondary), 0.36);
   border: rgb(var(--color-neutre-secondary)) 2px solid;
   border-radius: 50px;
   height: 3.125rem;

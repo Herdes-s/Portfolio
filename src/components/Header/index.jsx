@@ -1,6 +1,6 @@
 import styles from "./Header.module.css";
 
-import sun from "../../assets/images/sun.svg";
+import dark_light from "../../assets/images/dark_light.png";
 import menu from "../../assets/images/menu.svg";
 import close from "../../assets/images/close.svg";
 import { useState } from "react";
@@ -45,7 +45,7 @@ function Header() {
         <img src={open ? close : menu} alt="botão de abrir menu" />
       </div>
       <div className={styles.modeLight}>
-        <img src={sun} alt="botão de mudar modo dark" onClick={toggleLightMode} />
+        <img src={dark_light} alt="botão de mudar modo dark" onClick={toggleLightMode} />
       </div>
     </header>
   );
