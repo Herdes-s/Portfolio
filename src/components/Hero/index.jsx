@@ -2,7 +2,7 @@ import Header from "../Header";
 
 import styles from "./Hero.module.css";
 
-import my_photo from "../../assets/images/my_photo.png";
+import my_photo from "../../assets/images/my_photo.jpg";
 import gitHub from "../../assets/images/gitHub.svg";
 import linkedIn from "../../assets/images/linkedIn.svg";
 

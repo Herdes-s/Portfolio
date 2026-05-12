@@ -35,6 +35,9 @@
 
 .hero_image img {
   width: 90%;
+  border-radius: 100%;
+  border: 4px solid rgb(var(--color-neutre-primary));
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.64));
   display: block;
   margin-inline: auto;
 }
