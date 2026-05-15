@@ -53,7 +53,7 @@ git clone https://github.com/Herdes-s/Portfolio.git
 Acesse a pasta do projeto:
 
 ``` Bash
-cd nome-do-repositorio
+cd portfolio
 ```
    
 Instale as dependências:
