@@ -13,6 +13,7 @@
   margin-inline: auto;
   margin-bottom: 2rem;
   margin-top: 4rem;
+  
 }
 
 .sec_services .services_title {
@@ -35,6 +36,7 @@
   gap: 2rem;
   justify-content: center;
   align-items: center;
+  
 }
 
 .sec_services .services_container {
@@ -50,6 +52,8 @@
   border: 3px solid rgba(var(--color-secondary), 0.8);
   border-radius: 1.5rem;
   padding: 1rem 1.25rem;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.64);
+
 
   transition: transform .3s ease;
 }

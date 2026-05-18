@@ -51,6 +51,7 @@
   border: 3px solid rgba(var(--color-secondary), 0.8);
   border-radius: 1.5rem;
   padding: 1rem 1.25rem;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.64);
 
   transition: transform .3s ease;
 }

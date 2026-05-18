@@ -30,6 +30,7 @@
 .sec_projects .banner {
   width: 100%;
   position: relative;
+  
 }
 
 .sec_projects .banner .image_banner {
@@ -38,6 +39,7 @@
   display: block;
   margin-inline: auto;
   border-radius: 1rem;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.64);
   border: 2px solid rgba(var(--color-primary), 0.8);
   box-shadow: 4px 4px 8px rgba(var(--color-secondary), 0.36);
 }
