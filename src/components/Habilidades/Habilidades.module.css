@@ -42,6 +42,7 @@
 .habilidades_item {
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 100%;
   background: linear-gradient(
     to top,
@@ -57,7 +58,7 @@
 }
 
 .habilidades_item:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .habilidades_item h3 {
