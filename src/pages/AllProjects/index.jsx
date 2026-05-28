@@ -39,11 +39,16 @@ function AllProjects() {
           <h1 className={styles.title}>Todos os Projetos</h1>
           <div className={styles.show_projects}>
             {projetos.map((projeto) => (
-                <div className={styles.banner}>
-                    <img className={styles.image_banner} src={projeto.img} />
+              <div className={styles.banner} onClick={() => projeto.site !== "" ? window.open(projeto.site, "_blank") : window.open(projeto.repositorio, "_blank")}>
+                <div className={styles.banner_info}>
+                  <img className={styles.image_banner} src={projeto.img} />
                   <h2>{projeto.nome}</h2>
                   <p className={styles.description}>{projeto.descricao}</p>
                 </div>
+                <div className={styles.overlay}>
+                  <h3>Abrir Projeto</h3>
+                </div>
+              </div>
             ))}
           </div>
         </div>
