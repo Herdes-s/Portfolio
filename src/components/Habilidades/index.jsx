@@ -15,7 +15,7 @@ function Habilidades() {
           Desenvolvimento de interfaces modernas com foco em UI/UX, código limpo e alta performance.
         </p>
         <div className={styles.habilidades_grid}>
-          <div className={styles.habilidades_item}>
+          <div className={styles.habilidades_item}> 
             <h3>Front-End</h3>
             <ul>
               {frontend.map((habilidade, i) => (

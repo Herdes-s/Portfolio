@@ -1,14 +1,17 @@
+import { useNavigate } from "react-router-dom";
 import projetos from "../../data/projetos";
 
 import styles from "./Projects.module.css";
 
 function Projects() {
+  const navigate = useNavigate();
+
   return (
     <section className={styles.section_projects} id="projetos">
       <div className={styles.sec_projects}>
         <h1 className={styles.title}>Projetos</h1>
         <div className={styles.show_projects}>
-          {projetos.map((projeto) => (
+          {projetos.slice(0, 4).map((projeto) => (
             <div className={styles.banner}>
               <img
                 className={styles.image_banner}
@@ -29,9 +32,9 @@ function Projects() {
                       {projeto.btn_1}
                     </a>
                   </button>
-                  <button className={styles.btn_video}>
+                  <button className={styles.btn_site}>
                     <a
-                      href={projeto.video}
+                      href={projeto.site}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -43,7 +46,9 @@ function Projects() {
             </div>
           ))}
         </div>
-        {/* <p className={styles.more}>Ver mais</p> */}
+        <button className={styles.more} onClick={() => navigate("/projects")}>
+          Ver Todos os Projetos
+        </button>
       </div>
     </section>
   );

@@ -2,6 +2,7 @@ import hexatombe from "../assets/images/hexatombe.jpg";
 import strangerthings from "../assets/images/strangerthings.jpg";
 import onepiece from "../assets/images/onepiece.jpg";
 import barbearia from "../assets/images/barbearia.jpg";
+import e_commerce from "../assets/images/e_commerce.png";
 
 const projetos = [
   {
@@ -12,7 +13,7 @@ const projetos = [
     btn_1: "Repositorio",
     repositorio: "https://github.com/Herdes-s/hexatombe",
     btn_2: "Ver site",
-    video: "https://hexatombe-omega.vercel.app/",
+    site: "https://hexatombe-omega.vercel.app/",
     modo: "developer",
   },
   {
@@ -23,7 +24,7 @@ const projetos = [
     btn_1: "Repositorio",
     repositorio: "https://github.com/Herdes-s/Stranger-Things-Site",
     btn_2: "Ver site",
-    video: "https://stranger-things-site-taupe.vercel.app/",
+    site: "https://stranger-things-site-taupe.vercel.app/",
     modo: "developer",
   },
   {
@@ -33,8 +34,8 @@ const projetos = [
     img: onepiece,
     btn_1: "Repositorio",
     repositorio: "https://github.com/Herdes-s/Site_One_Piece_Serie",
-    btn_2: "Ver site",
-    video: "",
+    btn_2: "Manutenção",
+    site: "",
     modo: "developer",
   },
   {
@@ -45,7 +46,18 @@ const projetos = [
     btn_1: "Repositorio",
     repositorio: "https://github.com/Herdes-s/Barbearia",
     btn_2: "Ver site",
-    video: "https://barbearia-nine-gold.vercel.app/",
+    site: "https://barbearia-nine-gold.vercel.app/",
+    modo: "developer",
+  },
+  {
+    id: 5,
+    nome: "E-commerce",
+    descricao: "Site de um e-commerce",
+    img: e_commerce,
+    btn_1: "Repositorio",
+    repositorio: "https://github.com/Herdes-s/E-commerce",
+    btn_2: "Ver site",
+    site: "https://e-commerce-gilt-psi-72.vercel.app/",
     modo: "developer",
   },
 ];

@@ -1,13 +1,16 @@
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Home from './pages/Home'
+import AllProjects from './pages/AllProjects'
+import Home from "./pages/Home"
 
 function App() {
   
 
   return (
-    <>
-      <Home />
-    </>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path="projects" element={<AllProjects />} />
+    </Routes>
   )
 }
 
