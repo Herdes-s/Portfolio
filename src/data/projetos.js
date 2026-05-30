@@ -47,7 +47,7 @@ const projetos = [
     repositorio: "https://github.com/Herdes-s/Barbearia",
     btn_2: "Ver site",
     site: "https://barbearia-nine-gold.vercel.app/",
-    modo: "developer",
+    modo: [ "developer", "designer" ],
   },
   {
     id: 5,
@@ -58,7 +58,7 @@ const projetos = [
     repositorio: "https://github.com/Herdes-s/E-commerce",
     btn_2: "Ver site",
     site: "https://e-commerce-gilt-psi-72.vercel.app/",
-    modo: "developer",
+    modo: [ "developer", "designer" ],
   },
 ];
 
