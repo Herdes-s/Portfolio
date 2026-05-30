@@ -12,7 +12,7 @@ function Projects() {
         <h1 className={styles.title}>Projetos</h1>
         <div className={styles.show_projects}>
           {projetos.slice(0, 4).map((projeto) => (
-            <div className={styles.banner}>
+            <div key={projeto.id} className={styles.banner}>
               <img
                 className={styles.image_banner}
                 src={projeto.img}

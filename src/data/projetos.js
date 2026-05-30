@@ -1,8 +1,8 @@
-import hexatombe from "../assets/images/hexatombe.jpg";
-import strangerthings from "../assets/images/strangerthings.jpg";
-import onepiece from "../assets/images/onepiece.jpg";
-import barbearia from "../assets/images/barbearia.jpg";
-import e_commerce from "../assets/images/e_commerce.png";
+import hexatombe from "../assets/images/image_projects/hexatombe.jpg";
+import strangerthings from "../assets/images/image_projects/strangerthings.jpg";
+import onepiece from "../assets/images/image_projects/onepiece.jpg";
+import barbearia from "../assets/images/image_projects/barbearia.jpg";
+import e_commerce from "../assets/images/image_projects/e_commerce.png";
 
 const projetos = [
   {
@@ -12,7 +12,7 @@ const projetos = [
     img: hexatombe,
     btn_1: "Repositorio",
     repositorio: "https://github.com/Herdes-s/hexatombe",
-    btn_2: "Ver site",
+    btn_2: "Ver Site",
     site: "https://hexatombe-omega.vercel.app/",
     modo: "developer",
   },
@@ -23,7 +23,7 @@ const projetos = [
     img: strangerthings,
     btn_1: "Repositorio",
     repositorio: "https://github.com/Herdes-s/Stranger-Things-Site",
-    btn_2: "Ver site",
+    btn_2: "Ver Site",
     site: "https://stranger-things-site-taupe.vercel.app/",
     modo: "developer",
   },
@@ -45,7 +45,7 @@ const projetos = [
     img: barbearia,
     btn_1: "Repositorio",
     repositorio: "https://github.com/Herdes-s/Barbearia",
-    btn_2: "Ver site",
+    btn_2: "Ver Site",
     site: "https://barbearia-nine-gold.vercel.app/",
     modo: [ "developer", "designer" ],
   },
@@ -56,7 +56,7 @@ const projetos = [
     img: e_commerce,
     btn_1: "Repositorio",
     repositorio: "https://github.com/Herdes-s/E-commerce",
-    btn_2: "Ver site",
+    btn_2: "Ver Site",
     site: "https://e-commerce-gilt-psi-72.vercel.app/",
     modo: [ "developer", "designer" ],
   },

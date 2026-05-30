@@ -2,11 +2,14 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
-import ScrollToTop from "./assets/hooks/ScrollToTop.jsx";
+import ScrollToTop from "./hooks/ScrollToTop.jsx";
+import TemaProvider from "./hooks/TemaProvider.jsx";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <ScrollToTop />
-    <App />
+    <TemaProvider>
+      <App />
+    </TemaProvider>
   </BrowserRouter>,
 );

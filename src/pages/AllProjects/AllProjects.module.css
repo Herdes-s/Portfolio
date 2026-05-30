@@ -37,11 +37,15 @@
   border-radius: 100%;
   height: 3.125rem;
   width: 3.125rem;
+  display: flex;
+  justify-items: center;
+  align-items: center;
 
   cursor: pointer;
 }
 
-.modeLight img {
+.modeLight .mode {
+  font-size: 2rem;
   width: 100%;
   border-radius: 100%;
 }

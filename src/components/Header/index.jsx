@@ -1,23 +1,14 @@
 import styles from "./Header.module.css";
 
-import dark_light from "../../assets/images/dark_light.png";
 import menu from "../../assets/images/menu.svg";
 import close from "../../assets/images/close.svg";
 import { useState } from "react";
+import { FaMoon, FaSun } from "react-icons/fa";
+import TemaProvider from "../../hooks/TemaProvider";
 
 function Header() {
   const [open, setOpen] = useState(false);
-  const [lightMode, setLightMode] = useState(false);
-
-  const toggleLightMode = () => {
-    setLightMode(!lightMode);
-
-    if (!lightMode) {
-      document.documentElement.classList.add("light-mode");
-    } else {
-      document.documentElement.classList.remove("light-mode");
-    }
-  }
+  const { tema, toggleLightMode } = TemaProvider.useTema();
 
   return (
     <header className={styles.header}>
@@ -44,8 +35,12 @@ function Header() {
       <div className={`${styles.menu} `} onClick={() => setOpen(!open)}>
         <img src={open ? close : menu} alt="botão de abrir menu" />
       </div>
-      <div className={styles.modeLight}>
-        <img src={dark_light} alt="botão de mudar modo dark" onClick={toggleLightMode} />
+      <div className={styles.modeLight} onClick={toggleLightMode}>
+        {tema ? (
+          <FaMoon className={styles.mode} />
+        ) : (
+          <FaSun className={styles.mode} />
+        )}
       </div>
     </header>
   );

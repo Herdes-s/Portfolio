@@ -2,36 +2,29 @@ import styles from "./AllProjects.module.css";
 import { useNavigate } from "react-router-dom";
 import Header from "../../components/Header";
 
-import dark_light from "../../assets/images/dark_light.png";
-import { useState } from "react";
 import projetos from "../../data/projetos";
+import { IoIosArrowBack } from "react-icons/io";
+import { FaMoon, FaSun } from "react-icons/fa";
+import TemaProvider from "../../hooks/TemaProvider";
 
 function AllProjects() {
-  const [lightMode, setLightMode] = useState(false);
+  const { tema, toggleLightMode } = TemaProvider.useTema();
   const navigate = useNavigate();
 
-  const toggleLightMode = () => {
-    setLightMode(!lightMode);
 
-    if (!lightMode) {
-      document.documentElement.classList.add("light-mode");
-    } else {
-      document.documentElement.classList.remove("light-mode");
-    }
-  };
 
   return (
     <>
       <header className={styles.header}>
         <p className={styles.back} onClick={() => navigate(-1)}>
-          Voltar
+          <IoIosArrowBack /> Voltar
         </p>
-        <div className={styles.modeLight}>
-          <img
-            src={dark_light}
-            alt="botão de mudar modo dark"
-            onClick={toggleLightMode}
-          />
+        <div className={styles.modeLight} onClick={toggleLightMode}>
+          {tema ? (
+            <FaMoon className={styles.mode} />
+          ) : (
+            <FaSun className={styles.mode} />
+          )}
         </div>
       </header>
       <section className={styles.section}>
@@ -40,6 +33,7 @@ function AllProjects() {
           <div className={styles.show_projects}>
             {projetos.map((projeto) => (
               <div
+                key={projeto.id}
                 className={styles.banner}
                 onClick={() => navigate(`/project/${projeto.id}`)}
               >
