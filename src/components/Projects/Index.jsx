@@ -12,18 +12,24 @@ function Projects() {
         <h1 className={styles.title}>Projetos</h1>
         <div className={styles.show_projects}>
           {projetos.slice(0, 4).map((projeto) => (
-            <div key={projeto.id} className={styles.banner}>
+            <div key={projeto.id} className={styles.banner} onClick={() => navigate(`/project/${projeto.id}`)}>
               <img
                 className={styles.image_banner}
                 src={projeto.img}
                 alt="imagem do hero site hexatombe"
               />
               <div className={styles.banner_info}>
-                {/* <p className={styles.marca}>{projeto.modo}</p> */}
+                <div className={styles.marca_container}>
+                  {projeto.modo.map((modo) => (
+                    <span key={modo} className={`${styles.marca} ${styles[modo]}`}>
+                      {modo}
+                    </span>
+                  ))}
+                </div>
                 <h3>{projeto.nome}</h3>
                 <p className={styles.description}>{projeto.descricao}</p>
                 <div className={styles.btns}>
-                  <button className={styles.btn_repository}>
+                  <button className={styles.btn_repository} onClick={(e) => e.stopPropagation( )}>
                     <a
                       href={projeto.repositorio}
                       target="_blank"
@@ -32,7 +38,7 @@ function Projects() {
                       {projeto.btn_1}
                     </a>
                   </button>
-                  <button className={styles.btn_site}>
+                  <button className={styles.btn_site} onClick={(e) => e.stopPropagation( )}>
                     <a
                       href={projeto.site}
                       target="_blank"

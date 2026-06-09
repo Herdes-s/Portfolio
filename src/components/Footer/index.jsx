@@ -26,6 +26,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <img src={linkedin} alt="link linkedin" />
+              <p>LinkedIn</p>
             </a>
             <a
               href="https://instagram.com/mizum.dev?igsh=YXcwZ2YzbmwxbjBq"
@@ -33,6 +34,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <img src={instagram} alt="link instagram" />
+              <p>Instagram</p>
             </a>
             <a
               href="https://github.com/Herdes-s"
@@ -40,6 +42,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <img src={github} alt="link github" />
+              <p>GitHub</p>
             </a>
             <a
               href="https://youtube.com/@Mizum-i2h"
@@ -47,6 +50,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <img src={youtube} alt="link youtube" />
+              <p>YouTube</p>
             </a>
           </div>
         </div>

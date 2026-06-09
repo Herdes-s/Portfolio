@@ -56,12 +56,28 @@
   align-items: center;
   border-radius: 1rem;
 
+  cursor: pointer;
+
   opacity: 0;
   transition: 0.3s ease-in-out;
 }
 
 .banner:hover .banner_info {
   opacity: 1;
+}
+
+.sec_projects .banner_info .marca_container {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.sec_projects .banner_info .marca_container .developer {
+  background: rgb(25, 68, 146);
+}
+
+.sec_projects .banner_info .marca_container .designer {
+  background: rgb(182, 31, 31);
 }
 
 .sec_projects .banner_info .marca {
