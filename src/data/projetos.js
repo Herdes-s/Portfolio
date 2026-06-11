@@ -3,6 +3,9 @@ import strangerthings from "../assets/images/image_projects/strangerthings.jpg";
 import barbearia from "../assets/images/image_projects/barbearia.jpg";
 import e_commerce from "../assets/images/image_projects/e_commerce.jpg";
 
+// Imagens
+import barbeariaWareframe from "../assets/images/wareframes/barbearia_wareframe.png";
+
 const projetos = [
   {
     id: 1,
@@ -138,6 +141,92 @@ const projetos = [
     site: "https://barbearia-nine-gold.vercel.app/",
     modo: ["developer", "designer"],
     tecnologias: ["HTML", "CSS", "JavaScript", "React", "CSS-Modules"],
+    caseUse: {
+      Meu_papel_no_projeto: [
+        [
+          "Como designer, defini paleta de cores, tipografia, imagens e layout dos cards.",
+        ],
+        [
+          "Como desenvolvedor, construí os componentes em React, desenvolvi a responsividade com metodologia Mobile-First e estilizei com CSS Modules.",
+        ],
+      ],
+      Objetivo_do_projeto: [
+        [
+          "Criar um site para uma barbearia fictícia com dois propósitos: demonstrar habilidades em UI/UX e desenvolvimento web, e simular um produto real que pudesse atrair clientes.",
+        ],
+        [
+          "O site é composto por seções que representam a identidade da barbearia — tela inicial com navegação pelo header, seção sobre com a história da barbearia, serviços oferecidos e formas de contato.",
+        ],
+      ],
+      Público_alvo: [
+        "Homens entre 25 e 50 anos que procuram uma barbearia próxima para agendar um corte.",
+      ],
+      Principais_desafios_e_restrições: [
+        [
+          "O maior desafio foi no design — foi o primeiro projeto em que o design foi criado antes do desenvolvimento.",
+        ],
+        [
+          "Por ser a primeira vez usando o Figma, tive dificuldade inicial para encontrar as ferramentas certas, mas a prática ao longo do processo tornou o fluxo mais natural.",
+        ],
+      ],
+      Pesquisa_realizada: [
+        [
+          "Fiz pesquisa de concorrência analisando barbearias no Google, me baseando em designs que já funcionavam para coletar referências de cards, animações, tipografias e cores.",
+        ],
+        [
+          "Para reforçar a criatividade, busquei referências no Pinterest pesquisando logotipos, imagens e paletas.",
+        ],
+      ],
+      Conceitos_iniciais_e_estratégia_de_design: [
+        [
+          "O design foi estruturado em torno de uma identidade premium e dark. A imagem de destaque na tela inicial estabelece o ar de barbearia sofisticada, e a paleta dourado com fundo escuro reforça elegância e contraste.",
+        ],
+        [
+          "Os cards de serviços foram desenhados com ícones autoexplicativos — o usuário entende o serviço sem precisar ler.",
+        ],
+        [
+          "Os botões de contato foram distribuídos pelo site como chamadas para ação claras, sem interferir na navegação.",
+        ],
+        [
+          "As animações de aparecimento dos componentes funcionam como convite ao scroll, criando uma sensação de descoberta à medida que o usuário avança pelo site.",
+        ],
+      ],
+      Esboços_e_wireframes: [
+        [
+          "O objetivo inicial era aprender o Figma, então fui direto para o design de alta fidelidade — seção por seção, deixando o resultado o mais próximo possível do produto final. O design ficou tão bem resolvido que a decisão de desenvolvê-lo veio naturalmente depois.",
+        ],
+        [
+          "Essa experiência me mostrou que ter um design em mãos antes de codar funciona como um mapa, tornando o desenvolvimento significativamente mais rápido.",
+        ],
+      ],
+      Resultados_dos_testes_de_usuário: [
+        [
+          "Por ser um projeto didático, o feedback foi coletado de forma informal no Instagram, LinkedIn e YouTube. Os comentários foram positivos em relação à identidade visual e atmosfera premium.",
+        ],
+        [
+          "Uma sugestão recorrente foi adicionar imagens nos cards de serviços — melhoria válida que ficou mapeada para a próxima atualização do site.",
+        ],
+      ],
+      Designs_finais_refinados: [
+        [
+          "O site ficou com tipografia e cores premium, destaque dourado e branco sobre fundo escuro com leves gradientes. As animações de tela e botões reforçam a sensação de interação.",
+        ],
+        [
+          "As seções cobrem tela inicial com atalhos de navegação, história da barbearia, serviços e formas de contato — uma estrutura enxuta e funcional para o objetivo do projeto.",
+        ],
+      ],
+      Conclusão: [
+        [
+          "Esse projeto foi um salto importante na minha trajetória em UI/UX: aprendi na prática a criar um design no Figma antes de desenvolver, e percebi como isso acelera e organiza o processo de desenvolvimento.",
+        ],
+        [
+          "Se fosse refazer, teria experimentado wireframes de baixa fidelidade antes do design final para explorar mais possibilidades de layout antes de comprometer com uma direção.",
+        ],
+        [
+          "Como próximos passos, o site receberá imagens nos cards de serviços e possivelmente uma funcionalidade de agendamento online.",
+        ],
+      ],
+    },
   },
   {
     id: 4,
