@@ -1,4 +1,5 @@
 .section_about {
+  min-height: 100vh;
   background: rgba(var(--color-secondary), 0.36);
   padding: 1rem 2rem;
 }

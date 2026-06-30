@@ -3,9 +3,6 @@ import strangerthings from "../assets/images/image_projects/strangerthings.jpg";
 import barbearia from "../assets/images/image_projects/barbearia.jpg";
 import e_commerce from "../assets/images/image_projects/e_commerce.jpg";
 
-// Imagens
-import barbeariaWareframe from "../assets/images/wareframes/barbearia_wareframe.png";
-
 const projetos = [
   {
     id: 1,

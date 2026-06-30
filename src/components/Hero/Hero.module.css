@@ -17,7 +17,7 @@
   margin-inline: auto;
   display: flex;
   flex-direction: column;
-  padding: 1rem 1.5rem;
+  padding: 1rem 2rem;
 }
 
 .hero_image {
@@ -26,11 +26,7 @@
   border-radius: 100%;
   margin-block: 1.5rem;
   margin-inline: auto;
-}
 
-.hero_image img:hover {
-  border-radius: 100%;
-  box-shadow: 0 0 1rem rgb(var(--color-button));
 }
 
 .hero_image img {
@@ -40,6 +36,13 @@
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.64));
   display: block;
   margin-inline: auto;
+
+  transition: all .3s ease;
+}
+
+.hero_image img:hover {
+  border-radius: 100%;
+  box-shadow: 0 0 1rem rgb(var(--color-button));
 }
 
 .hero_info {
