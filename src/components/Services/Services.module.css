@@ -34,13 +34,13 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
-  justify-content: center;
+  justify-items: center;
   align-items: center;
   
 }
 
 .sec_services .services_container {
-  width: min(600px, 100%);
+  width: min(600px, 90%);
   display: flex;
   flex-direction: column;
   height: 100%;

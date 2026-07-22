@@ -2,6 +2,7 @@ import hexatombe from "../assets/images/image_projects/hexatombe.jpg";
 import strangerthings from "../assets/images/image_projects/strangerthings.jpg";
 import barbearia from "../assets/images/image_projects/barbearia.jpg";
 import e_commerce from "../assets/images/image_projects/e_commerce.jpg";
+import stelarmovies from "../assets/images/image_projects/stelarmovies.png"
 
 const projetos = [
   {
@@ -236,6 +237,18 @@ const projetos = [
     site: "https://e-commerce-gilt-psi-72.vercel.app/",
     modo: ["developer", "designer"],
     tecnologias: ["HTML", "SCSS", "TypeScript", "React", "CSS-Modules"],
+  },
+  {
+    id: 5,
+    nome: "StelarMovies",
+    descricao: "site de filmes e series",
+    img: stelarmovies,
+    btn_1: "Repositorio",
+    repositorio: "https://github.com/Herdes-s/StelarMovies",
+    btn_2: "Ver Site",
+    site: "https://stelar-movies.vercel.app/",
+    modo: ["developer", "designer"],
+    tecnologias: ["HTML", "SCSS", "TypeScript", "React", "CSS-Modules", "API-REST"],
   },
 ];
 

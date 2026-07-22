@@ -24,11 +24,12 @@
 .sec_projects .show_projects {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  justify-items: center;
   gap: 1rem;
 }
 
 .sec_projects .banner {
-  width: 100%;
+  width: 90%;
   position: relative;
 }
 
