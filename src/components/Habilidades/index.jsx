@@ -4,6 +4,7 @@ import {
   frontend,
   ferramentas,
   habilidadesessenciais,
+  backend,
 } from "../../data/habilidades";
 
 function Habilidades() {
@@ -19,6 +20,14 @@ function Habilidades() {
             <h3>Front-End</h3>
             <ul>
               {frontend.map((habilidade, i) => (
+                <li key={i}>{habilidade}</li>
+              ))}
+            </ul>
+          </div>
+          <div className={styles.habilidades_item}>
+            <h3>Back-end</h3>
+            <ul>
+              {backend.map((habilidade, i) => (
                 <li key={i}>{habilidade}</li>
               ))}
             </ul>

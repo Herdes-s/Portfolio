@@ -3,7 +3,6 @@ import styles from "./Footer.module.css";
 import instagram from "../../assets/images/instagram.svg";
 import github from "../../assets/images/github_circle.svg";
 import linkedin from "../../assets/images/linkedin_circle.svg";
-import youtube from "../../assets/images/youtube_circle.svg";
 
 function Footer() {
   return (
@@ -43,14 +42,6 @@ function Footer() {
             >
               <img src={github} alt="link github" />
               <p>GitHub</p>
-            </a>
-            <a
-              href="https://youtube.com/@Mizum-i2h"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={youtube} alt="link youtube" />
-              <p>YouTube</p>
             </a>
           </div>
         </div>

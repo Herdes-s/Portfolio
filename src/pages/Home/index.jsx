@@ -6,7 +6,7 @@ import Hero from "../../components/Hero";
 import Projects from "../../components/Projects/Index";
 import Services from "../../components/Services";
 
-import styles from "./Home.module.css";
+// import styles from "./Home.module.css";
 
 function Home() {
 
