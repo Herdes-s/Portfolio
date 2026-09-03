@@ -8,7 +8,7 @@ Este é o meu portfólio profissional, desenvolvido para centralizar meus projet
 
 | Dark Mode | Light Mode |
 | :---: | :---: |
-| ![Dark Mode](./src/assets/images/portfolio_dark.png) | ![Light Mode](./src/assets/images/portfolio_light.png) |
+| ![Dark Mode](./src/assets/images/portfolio_dark.jpg) | ![Light Mode](./src/assets/images/portfolio_light.jpg) |
 
 ---
 
